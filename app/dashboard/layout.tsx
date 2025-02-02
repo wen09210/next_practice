@@ -1,3 +1,4 @@
+export const experimental_ppr = true;
 import SideNav from '@/app/ui/dashboard/sidenav';
 // import { Suspense } from 'react';
 // import Loading from './(overview)/loading';
