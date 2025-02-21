@@ -1,3 +1,4 @@
+'use client';
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
 
@@ -7,6 +8,7 @@ export default function AcmeLogo() {
       className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
     >
       <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
+      <button onClick={() => { throw new Error('Failed to load layout') }}>asdsdd</button>
       <p className="text-[44px]">Acme</p>
     </div>
   );
